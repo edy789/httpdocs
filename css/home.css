@@ -1,0 +1,20 @@
+.boton{
+    background-color: orange;
+    color:white;
+    font-size: 25px;
+    padding: 40px 10px;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+border-radius: 12px;
+box-shadow: 0px 5px 4px 5px grey;
+margin: 40px;
+
+
+}
+.boton:hover{
+
+background-color: coral;
+color:black;
+
+}

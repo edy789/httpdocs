@@ -1,0 +1,106 @@
+
+
+.form-alta {
+	
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h3 {
+	text-align: center;
+	padding: 12px;
+	color: #444
+}
+
+.form{
+    margin-top:5%
+}
+.div1{
+    margin-bottom: 3%;
+   
+}
+.button{
+border-radius: 12px;
+margin-top: 5%;
+background-color:blue;
+border: 2px solid white;
+transition-duration: 0.4s;
+height:40px;
+ width:400px;
+}
+.button:hover {
+    background-color:blue; /* Green */
+    color: white;
+  }
+
+
+
+
+.ok {
+	text-align: center;
+
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
+header {
+	width :100%;
+	background:black;
+}	
+#btn-menu{
+	display:none;
+
+}	
+header label{
+	display:none;
+	width:30px;
+	height:60px;
+	padding:8px;
+	border-right: 1px solid black;
+
+}
+header label:hover{
+	cursor:pointer;
+	background:black;
+	
+
+}
+.menu ul{
+	margin:0;
+	list-style: none;
+	padding:0;
+	display:flex;
+	flex-direction: row;
+
+}	
+.menu li{
+	border-right:1px solid #fff;
+
+	flex-grow:1;
+}
+.menu li hover{
+	background:white;
+}
+
+.menu li a {
+	display:block;
+	padding: 20px;
+	color:white;
+	text-decoration:none;
+
+}
+
+
+

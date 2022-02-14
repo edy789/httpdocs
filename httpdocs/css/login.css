@@ -1,0 +1,143 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+
+	background-color: 	#050505;
+	
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px;
+	height:350px;
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: white
+}
+
+
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+	
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+body{
+	padding: 50px 20px;
+	background-image:url(../css/banca.jpg);
+	width: 100%;
+	height:200%vh;
+	background-size: cover;
+
+	color:white;
+	
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+	.box-form{
+		
+		width: 100%;
+	}
+	.h1-text{
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.img-login{
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+.box-input{
+	width: 50%;
+}
+.btn-ingresar{
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 650px) {
+	.btn-ingresar{
+		width: 60%;
+		
+	}
+	.box-form{
+		width: 60%;
+		
+	}
+	.h1-text{
+		width: 70%;
+		margin-left: auto;
+    margin-right: auto;
+	}
+	.img-login{
+		width: 60%;
+		margin-left: auto;
+    margin-right: auto;
+	}
+	.box-input{
+		width: 60%;
+		margin-left: auto;
+    margin-right: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 500px) {
+	.box-form{
+		width: 30%;
+		
+	}
+	.h1-text{
+		width: 70%;
+		margin-left: auto;
+    margin-right: auto;
+		
+	}
+	.img-login{
+		
+		
+	}
+	.box-input{
+		width: 40%;
+		margin-left: auto;
+		margin-left: auto;
+    margin-right: auto;
+	}
+	.btn-ingresar{
+		width: 40%;
+	}
+}
